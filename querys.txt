@@ -1,0 +1,16 @@
+CREATE DATABASE fullstack;
+
+CREATE TABLE employes(
+	first_name VARCHAR(25)
+)
+
+# Para asignar un valor por defecto
+CREATE TABLE departments(
+	name VARCHAR(30) DEFAULT 'Sin Asignar'
+)
+
+CREATE TABLE salary (
+	id_salary NUMERIC(8),
+	amount Float(8) DEFAULT 0,
+	paid_date DATE DEFAULT current_date
+)
